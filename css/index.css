@@ -1,0 +1,296 @@
+@charset "utf-8";
+.top{
+  background-color: #f7f7f7;
+  height: 26px;
+  border-bottom:1px solid #d8d8d8;
+}
+.top-page{
+  height:26px;
+}
+.top-page-l,.top-page-r{
+  line-height: 26px;
+}
+.top-page-r ul li{
+  float:left;
+  padding-right:10px;
+}
+.top-page-r ul li s{
+  display:inline-block;
+  width:14px;
+  height:12px;
+  background-color:#00f;
+  vertical-align: middle;
+}
+
+/* logo */
+.logo{
+  height:98px;
+}
+.logo-l{
+  width: 200px;
+  height: 55px;
+  margin:24px 0 19px 9px;
+  background-color: #0af;
+  /* 为了搜索引擎 */
+  text-indent:-9999px;
+}
+.logo-r{
+  width:530px;
+  height:42px;
+  margin-top:29px;
+  border:1px solid #c9c9c9;
+}
+.logo-r-content{
+  margin:5px 5px 5px 4px;
+}
+.logo-r-search{
+  width:418px;
+  height:28px;
+  border:1px solid #c9c9c9;
+  color:#999999;
+}
+.logo-r-btn{
+  width:99px;
+  height:30px;
+  background-color: #2f70d0;
+  color:#fff;
+}
+
+/* 导航 */
+.nav{
+  height:25px;
+  border-bottom:2px solid #0266a3;
+}
+.nav ul li{
+  float:left;
+  padding:0 15px;
+  line-height:25px;
+  font-size: 14px;
+  font-weight:bold;
+}
+.nav li a{
+  color:#0266a3;
+}
+.nav li:hover{
+  background-color: #0266a3;
+}
+.nav li:hover a{
+  color:#fff;
+}
+
+/* banner */
+.banner{
+  height:210px;
+  margin-top:10px;
+}
+.subNav{
+  width:200px;
+  height:210px;
+  margin-right:11px;
+}
+.subNav h2{
+  padding-left:20px;
+  height:30px;
+  line-height:30px;
+  font-size:14px;
+  font-weight:bold;
+  background-color: #0266A3;
+  color:#fff;
+}
+.subNav ul{
+  background-color: #ebf0f6;
+}
+.subNav li{
+  font-size:15px;
+  padding-top:11px;
+  margin-left:9px;
+}
+.subNav s{
+  display:inline-block;
+  width:14px;
+  height:12px;
+  background-color:#00f;
+  vertical-align: middle;
+}
+.ad{
+  width:520px;
+  height:210px;
+  background-color: #f0a;
+}
+.message{
+  width:230px;
+  height:210px;
+}
+.message-top{
+  height:95px;
+  border:1px solid #dddddd;
+  background-color: #f7faff;
+  margin-bottom:21px;
+}
+.message-top .fw{
+  padding:7px 0 0 18px;
+  font-weight:bold;
+}
+.message-top s{
+  margin:20px 10px 0 10px;
+  display: inline-block;
+  width:40px;
+  height:40px;
+  background-color: #00f;
+}
+.message-top .cheap{
+  margin-top:25px;
+}
+.message-bottom{
+  height:92px;
+  background-color: #f7f7f7;
+}
+.message-bottom .find-message{
+  padding-top:11px;
+  text-align:center;
+  font-size:14px;
+}
+.message-bottom .phone{
+  text-align:center;
+}
+.message-bottom .phone s{
+  display:inline-block;
+  width:14px;
+  height:17px;
+  background-color: #00f;
+  vertical-align:middle;
+}
+.message-bottom .btn{
+  width:81px;
+  height:23px;
+  background-color: #f0f;
+  margin-top:9px;
+  margin-left:75px;
+}
+.material{
+  height:34px;
+  border-top:2px solid #c3d7e4;
+  line-height:34px;
+  background-color: #ecf1f7;
+  font-weight:bold;
+  padding-left:20px;
+  box-sizing:border-box;
+}
+
+.product{
+  height:345px;
+  margin-top:12px;
+}
+.product .product-l{
+  width:728px;
+  height:345px;
+  border:1px solid #d8d8d8;
+}
+.product .product-l-top{
+  height:172px;
+  padding:17px 0 0 26px;
+  box-sizing:border-box;
+}
+.product .product-l-product1{
+  width:350px;
+  height:146px;
+}
+.product .buy{
+  width:99px;
+  height:143px;
+}
+.product .buy .img{
+  height:100px;
+  border:1px solid #cacaca;
+  position:relative;
+}
+.product .buy .img s{
+  display:inline-block;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:90px;
+  height:62px;
+  background-color: #ccc;
+}
+.product .buy .btn{
+  width:99px;
+  height:26px;
+  margin-top:15px;
+  color:#fff;
+}
+.product .explain{
+  width:250px;
+  height:143px;
+}
+.product .explain .good-wife{
+  font-size:14px;
+  padding:10px 0 0 10px;
+}
+.product .explain .auto{
+  color:#863e01;
+  padding:13px 0 0 15px;
+}
+.product .explain .money{
+  padding:23px 0 0 11px;
+}
+.product .explain .money span{
+  color:#f00;
+}
+.product .explain .money s{
+  text-decoration:line-through;
+}
+.product .explain .buyed{
+  font-size:14px;
+  padding:24px 0 0 11px;
+}
+.product .product-r{
+  width:230px;
+  height:345px;
+  border:1px solid #e0e6f0;
+}
+.product-r h2{
+  height:28px;
+  line-height:28px;
+  padding-left:15px;
+  border-bottom:1px solid #e0e6f0;
+}
+.product-r ul{
+  padding-top:11px;
+}
+.product-r li{
+  line-height:23px;
+  padding-left:26px;
+}
+.product-l-line{
+  margin:0 4px;
+  border:1px solid #ccc;
+}
+
+.link{
+  height:103px;
+  width:970px;
+  margin:0 auto;
+  margin-top:11px;
+  border-top:1px solid #ddd;
+  border-bottom:3px solid #0a7ec3;
+  color:#666666;
+}
+.link-p1{
+  margin-top:30px;
+}
+.link-p2{
+  margin-top:14px;
+  margin-left:61px;
+}
+.aboutMe{
+  height:91px;
+}
+/* .aboutMe dl{
+  float:left;
+} */
+.aboutMe p{
+  margin-top:14px;
+  text-align:center;
+}

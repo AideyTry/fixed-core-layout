@@ -1,0 +1,24 @@
+@charset "utf-8";
+html{
+  font:12px "宋体";
+}
+a{
+  color:#000;
+}
+.clearfix:after {
+content: ' '; /*内容尽量不要为空的，否则旧版本浏览器会有空隙*/
+display: block;
+height: 0;
+visibility: hidden; /*隐藏盒子*/
+clear: both; /*清除浮动*/
+}
+.w{
+  width: 970px;
+  margin: 0 auto;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
